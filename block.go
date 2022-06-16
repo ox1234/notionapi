@@ -706,4 +706,5 @@ type BlockUpdateRequest struct {
 	Pdf              *Pdf       `json:"pdf,omitempty"`
 	Bookmark         *Bookmark  `json:"bookmark,omitempty"`
 	Template         *Template  `json:"template,omitempty"`
+	Table            *Table     `json:"table,omitempty"`
 }
