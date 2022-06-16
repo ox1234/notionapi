@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jomei/notionapi"
+	"github.com/ox1234/notionapi"
 )
 
 func TestDate(t *testing.T) {

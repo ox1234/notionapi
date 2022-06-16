@@ -31,10 +31,14 @@ func (p RichTextPropertyConfig) GetType() PropertyConfigType {
 	return p.Type
 }
 
+type FormatConfig struct {
+	Format string `json:"format"`
+}
+
 type NumberPropertyConfig struct {
 	ID     ObjectID           `json:"id,omitempty"`
 	Type   PropertyConfigType `json:"type"`
-	Format FormatType         `json:"format"`
+	Number FormatConfig       `json:"number"`
 }
 
 type FormatType string

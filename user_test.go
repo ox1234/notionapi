@@ -2,7 +2,7 @@ package notionapi_test
 
 import (
 	"context"
-	"github.com/jomei/notionapi"
+	"github.com/ox1234/notionapi"
 	"net/http"
 	"reflect"
 	"testing"
