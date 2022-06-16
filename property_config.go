@@ -32,7 +32,7 @@ func (p RichTextPropertyConfig) GetType() PropertyConfigType {
 }
 
 type FormatConfig struct {
-	Format string `json:"format"`
+	Format PropertyConfigType `json:"format"`
 }
 
 type NumberPropertyConfig struct {
